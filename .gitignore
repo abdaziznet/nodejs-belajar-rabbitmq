@@ -1,0 +1,30 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs and other generated files
+*.log
+*.pid
+*.lock
+yarn-error.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Ignore npm's debug log
+npm-debug.log
+
+# Ignore coverage directory
+coverage/
+
+# Ignore build artifacts and dist directories
+/build/
+/dist/
+
+# Ignore dependencies and other project-specific files
+.DS_Store
+Thumbs.db
